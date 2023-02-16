@@ -20,19 +20,19 @@ Refine offers lots of out-of-the box functionality for rapid development, withou
 ### Running the development server.
 
 ```bash
-    npm run dev
+    yarn dev
 ```
 
 ### Building for production.
 
 ```bash
-    npm run build
+    yarn build
 ```
 
 ### Running the production server.
 
 ```bash
-    npm run start
+    yarn start
 ```
 
 ## Learn More
@@ -47,7 +47,6 @@ To learn more about **refine**, please check out the [Documentation](https://ref
 - **Custom Layout** [Docs](https://refine.dev/docs/ui-frameworks/mui/customization/mui-custom-layout/)
 - **React Router** [Docs](https://refine.dev/docs/core/providers/router-provider/)
 - **Google Auth Provider** [Docs](https://refine.dev/docs/core/providers/auth-provider/)
-- **i18n** [Docs](https://refine.dev/docs/core/providers/i18n-provider/)
 
 
 ## License
