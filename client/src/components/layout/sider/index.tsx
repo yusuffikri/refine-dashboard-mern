@@ -134,7 +134,7 @@ export const Sider: typeof DefaultSider = ({ render }) => {
                     primary={label}
                     primaryTypographyProps={{
                       noWrap: true,
-                      fontSize: "14px",
+                      fontSize: "16px",
                       fontWeight: isSelected ? "bold" : "normal",
                     }}
                   />
@@ -178,18 +178,23 @@ export const Sider: typeof DefaultSider = ({ render }) => {
                 py: isNested ? 1.25 : 1,
                 "&.Mui-selected": {
                   "&:hover": {
-                    backgroundColor: "transparent",
+                    backgroundColor: isSelected ? '#1e36e8' : "transparent",
                   },
-                  backgroundColor: "transparent",
+                  backgroundColor: isSelected ? '#475be8' : "transparent",
                 },
                 justifyContent: "center",
+                margin : "10px auto",
+                borderRadius: "12px",
+                minHeight: "56px",
+                width: "90%",
               }}
             >
               <ListItemIcon
                 sx={{
                   justifyContent: "center",
                   minWidth: 36,
-                  color: "primary.contrastText",
+                  color: isSelected ? '#ffffff': '#808191',
+
                 }}
               >
                 {icon ?? <ListOutlined />}
@@ -200,6 +205,7 @@ export const Sider: typeof DefaultSider = ({ render }) => {
                   noWrap: true,
                   fontSize: "14px",
                   fontWeight: isSelected ? "bold" : "normal",
+                  color: isSelected ? "#fff" : "#808191",
                 }}
               />
             </ListItemButton>
