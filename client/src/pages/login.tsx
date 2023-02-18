@@ -52,7 +52,7 @@ export const Login: React.FC = () => {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          height: "100vh",
+          height: "100%",
         }}
       >
         <Box
