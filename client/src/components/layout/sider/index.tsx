@@ -193,7 +193,7 @@ export const Sider: typeof DefaultSider = ({ render }) => {
                 sx={{
                   justifyContent: "center",
                   minWidth: 36,
-                  color: isSelected ? '#ffffff': '#808191',
+                  color: isSelected ? '#fff': '#808191',
 
                 }}
               >
@@ -206,6 +206,7 @@ export const Sider: typeof DefaultSider = ({ render }) => {
                   fontSize: "14px",
                   fontWeight: isSelected ? "bold" : "normal",
                   color: isSelected ? "#fff" : "#808191",
+                  marginLeft: "10px",
                 }}
               />
             </ListItemButton>
